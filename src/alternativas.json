@@ -1,0 +1,502 @@
+[
+    {
+        "_id": 1,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Cual de las siguientes es una variable de tipo int?",
+        "Alternativas": [
+            "12.3",
+            "18",
+            "0.004753948",
+            "true"
+        ],
+        "respuesta": "18"
+    },
+    {
+        "_id": 2,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿cual de las siguientes es una variable de tipo float?",
+        "Alternativas": [
+            "true",
+            "0.004753948",
+            "18",
+            "12.3"
+        ],
+        "respuesta": "0.004753948"
+    },
+    {
+        "_id": 3,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "La función: void fun(unsigned char *cad1, unsigned char *cad2){while (*cad2++=*cad1++);}",
+        "Alternativas": [
+            "Copia la cadena cad2 en la cadena cad1",
+            "Copia la cadena cad1 en la cadena cad2",
+            "Copia la cadena cad2 en la cadena cad1 excepto el caracter",
+            "Copia la cadena cad1 en la cadena cad2 excepto el caracter"
+        ],
+        "respuesta": "Copia la cadena cad1 en la cadena cad2"
+    },
+    {
+        "_id": 4,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es la computación?",
+        "Alternativas": [
+            "Es el estudio de los fundamentos teóricos de la información que procesan las computadoras, y las distintas implementaciones en forma de sistemas comp.",
+            "Es un vocablo inspirado en el francés “informatique” que se encarga de procesar la Información.",
+            "Es aquella que tiene relación con el tratamiento de la Información y sus usos; es más cercana a las Personas y Computadoras",
+            "Es el estudio de las Computadoras creadas por Bill Gates en los 80's"
+        ],
+        "respuesta": "Es el estudio de los fundamentos teóricos de la información que procesan las computadoras, y las distintas implementaciones en forma de sistemas comp."
+    },
+    {
+        "_id": 5,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que son los sistemas computacionales?",
+        "Alternativas": [
+            "Denota conteo y se refiere a la sección Harware de la computadora.",
+            "Es la Teoría Básica de la Computacion",
+            "Es un conjunto de elementos orientados al tratamiento y administración de datos e información, organizados y listos para su uso posterior",
+            "Proviene del Ingles Informatique y es la teoría básica de la Informática."
+        ],
+        "respuesta": "Es la Teoría Básica de la Computacion"
+    },
+    {
+        "_id": 6,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es una unidad de almacenamiento?",
+        "Alternativas": [
+            "Son dispositivos periféricos del sistema, que actúan como medio de soporte para la grabación de programas de usuario, así como de datos y archivos.",
+            "Es un Disco duro que sirve para Formateo de sistema operativo y para su uso posterior",
+            "Es aquella que tiene relación con el almacenamiento de la Información y sus usos; es más cercana a las Personas y Computadoras",
+            "Están construidos de material plástico flexible, el cual está recubierto de material magnético (ferromagnético) sobre el cual se grabarán los datos."
+        ],
+        "respuesta": "Son dispositivos periféricos del sistema, que actúan como medio de soporte para la grabación de programas de usuario, así como de datos y archivos."
+    },
+    {
+        "_id": 7,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Cuál es la diferencia entre un bit y un Byte?",
+        "Alternativas": [
+            "En que uno corresponde a la unidadmaxima de Memoria y el otro es un conjunto de 6 a 8 bytes",
+            "La diferencia es que uno es de datos y otro es conjunto de datos.",
+            "La diferencia es de 1024 Mb de almacenamiento.",
+            "En que uno corresponde a la unidad mínima de Memoria y el otro es un conjunto de 6 a 8 bits"
+        ],
+        "respuesta": "Cuál es la diferencia entre un bit y un Byte."
+    },
+    {
+        "_id": 8,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "Verdadero y Falso",
+        "dificultad": "easy",
+        "pregunta": "La unidad de medida que más se utiliza en la actualidad es el Megabyte.",
+        "Alternativas": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta": "Verdadero"
+    },
+    {
+        "_id": 9,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un sistemas operativo?",
+        "Alternativas": [
+            "Es una unidad de medida utilizada en informática que equivale a 1.024 bytes",
+            "Es el software básico de una computadora que provee una interfaz entre el resto de programas del ordenador, los dispositivos hardware y el usuario.",
+            "Es un sistema complejo de la computadora que puede llegar a estar constituido por millones de componentes electrónicos elementales.",
+            "Es módulo ordenado de elementos para la computadora que se encuentran interrelacionados y que interactúan entre sí, en apoyo al usuario."
+        ],
+        "respuesta": "Es el software básico de una computadora que provee una interfaz entre el resto de programas del ordenador, los dispositivos hardware y el usuario."
+    },
+    {
+        "_id": 10,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un Firmware?",
+        "Alternativas": [
+            "Es Hw y Sfw que permite la interelacion entre PC y dispositivo electrónico externo y recibe órdenes externas y responde operando el dispositivo.",
+            "Es un programa gratuito que se ofrece al usuario final sin ningún ánimo de lucro.",
+            "Es una parte de un sistema o una red que está diseñada para bloquear el acceso no autorizado, permitiendo al mismo tiempo comunicaciones autorizadas.",
+            "Es un estándar de interfaz de conexión para diversas plataformas, destinado a la entrada y salida de datos en serie a gran velocidad."
+        ],
+        "respuesta": "Es Hw y Sfw que permite la interelacion entre PC y dispositivo electrónico externo y recibe órdenes externas y responde operando el dispositivo."
+    },
+    {
+        "_id": 11,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un lenguaje de programación?",
+        "Alternativas": [
+            "Es un compilador estable y potente para la solución de problemas humanos y los entienda físicamente la PC.",
+            "Se puede también utilizar una alternativa diferente de los compiladores para traducir lenguajes de alto nivel.",
+            "Es un Programa que define un medio de comunicación compartido por un grupo de personas y la PC (por ejemplo: inglés o francés).",
+            "Es un lenguaje o Sfw diseñado para describir un conjunto de acciones consecutivas que un equipo debe ejecutar."
+        ],
+        "respuesta": "Es un lenguaje o Sfw diseñado para describir un conjunto de acciones consecutivas que un equipo debe ejecutar."
+    },
+    {
+        "_id": 12,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Cuáles son los tipos de lenguaje de programación?",
+        "Alternativas": [
+            "Lenguaje Estructural, Máquina, Ensambladores, Fisico-Humano, lenguajes de bajo nivel y de lenguajes de alto nivel",
+            "Únicamente de bajo nivel y lenguajes de alto nivel.",
+            "El lenguaje máquina, Lenguajes ensambladores y de lenguajes de alto nivel",
+            "MS-DOS, C, C++, Java, Visual Basic, SQL, SQL Server."
+        ],
+        "respuesta": "El lenguaje máquina, Lenguajes ensambladores y de lenguajes de alto nivel."
+    },
+    {
+        "_id": 13,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un Lenguaje Maquina?",
+        "Alternativas": [
+            "Es un lenguaje de programación de bajo nivel para los computadores, microprocesadores, microcontroladores y otros circuitos integrados programables.",
+            "Es el sistema de códigos directamente interpretable (0 y 1) por un circuito microprogramable, como el microprocesador de una computadora.",
+            "Se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, en lugar de la capacidad ejecutora de las máquinas.",
+            "Es un lenguaje o Sfw diseñado para describir un conjunto de acciones consecutivas que un equipo debe ejecutar."
+        ],
+        "respuesta": "Se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, en lugar de la capacidad ejecutora de las máquinas."
+    },
+    {
+        "_id": 14,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un Lenguaje Ensamblador?",
+        "Alternativas": [
+            "Es un lenguaje de programación de bajo nivel para los computadores, microprocesadores, microcontroladores y otros circuitos integrados programables.",
+            "Es el sistema de códigos directamente interpretable (0 y 1) por un circuito microprogramable, como el microprocesador de una computadora.",
+            "Se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, en lugar de la capacidad ejecutora de las máquinas.",
+            "Es un lenguaje o Sfw diseñado para describir un conjunto de acciones consecutivas que un equipo debe ejecutar."
+        ],
+        "respuesta": "Es un lenguaje de programación de bajo nivel para los computadores, microprocesadores, microcontroladores y otros circuitos integrados programables."
+    },
+    {
+        "_id": 15,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un Lenguaje de alto nivel?",
+        "Alternativas": [
+            "Es un compilador estable y potente para la solución de problemas humanos y los entienda físicamente la PC.",
+            "Es el sistema de códigos directamente interpretable (0 y 1) por un circuito microprogramable, como el microprocesador de una computadora.",
+            "Es un es un lenguaje de programación para los computadores, microprocesadores, microcontroladores y otros circuitos integrados programables.",
+            "Se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, en lugar de la capacidad ejecutora de las máquinas"
+        ],
+        "respuesta": "Se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, en lugar de la capacidad ejecutora de las máquinas"
+    },
+    {
+        "_id": 16,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "Son nombres de lenguajes de programación orientado a objetos.",
+        "Alternativas": [
+            "Java, C++, Smalltalk, Python, Object Pascal, Visual .net, Visual Basic, Delphi, Perl, entre otros.",
+            "Visual Basic, Visual C++, Visual DialogScript, Visual Foxpro, Ensamblador, Borland c, Turbo C. entre otros",
+            "HTML, XML, VML, Java, PHP, C++, Fortran, Cobol, Lisp, entre otros",
+            "Actionscript, COBOL, C++, .NET, PHP, Simula, PowerBuilder, Maya, entre otros."
+        ],
+        "respuesta": "Java, C++, Smalltalk, Python, Object Pascal, Visual .net, Visual Basic, Delphi, Perl, entre otros."
+    },
+    {
+        "_id": 17,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "Son los tipos de datos que se manejan en Programación.",
+        "Alternativas": [
+            "Tipo Java, C++, Smalltalk, Python, Object Pascal, Visual .net, Visual Basic, Delphi, Perl, entre otros.",
+            "Cadena, Boleano, Carácter, Numeros, alfanuemrico, Entero.",
+            "String, Boolean, Char, Integer, int, etc.",
+            "Simbólicos, de estructura, de cadena, de complemento, generales, particulares, entre otros."
+        ],
+        "respuesta": "Cadena, Boleano, Carácter, Numeros, alfanuemrico, Entero."
+    },
+    {
+        "_id": 18,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "Son los tipos de variables que se manejan en Programación.",
+        "Alternativas": [
+            "Tipo Java, C++, Smalltalk, Python, Object Pascal, Visual .net, Visual Basic, Delphi, Perl, entre otros.",
+            "Cadena, Boleano, Carácter, Numeros, Entero, Cadena, Boleano, Carácter, Numeros, Entero, entre otros.",
+            "De Actionscript, COBOL, C#, .NET, PHP, Simula, PowerBuilder, Maya, entre otros.",
+            "String, Boolean, Char, Integer, int, Double, Float, etc."
+        ],
+        "respuesta": "String, Boolean, Char, Integer, int, Double, Float, etc."
+    },
+    {
+        "_id": 19,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Qué es el compilador Java?",
+        "Alternativas": [
+            "Es un programa contable que traduce un programa escrito en un lenguaje de programación a otro lenguaje de programación.",
+            "Es un programa que transforma código fuente escrito en java a un código neutral a la plataforma conocido como java.",
+            "Es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java.",
+            "Es un atributo de una parte de los datos que indica al ordenador (y/o al programador) algo sobre la clase de datos sobre los que se va a procesar."
+        ],
+        "respuesta": "Es un programa que transforma código fuente escrito en java a un código neutral a la plataforma conocido como java."
+    },
+    {
+        "_id": 20,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un intérprete?",
+        "Alternativas": [
+            "Es un programa informático capaz de analizar y ejecutar otros programas, escritos en un lenguaje de alto nivel.",
+            "Es un programa que transforma código fuente escrito en java a un código neutral a la plataforma conocido como java.",
+            "Es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java.",
+            "Es un atributo de una parte de los datos que indica al ordenador (y/o al programador) algo sobre la clase de datos sobre los que se va a procesar."
+        ],
+        "respuesta": "Es un programa informático capaz de analizar y ejecutar otros programas, escritos en un lenguaje de alto nivel."
+    },
+    {
+        "_id": 21,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es una Clase en Programación?",
+        "Alternativas": [
+            "Es un programa contable que traduce un programa escrito en un lenguaje de programación a otro lenguaje de programación.",
+            "Es un programa que transforma código fuente escrito en java a un código neutral a la plataforma conocido como java.",
+            "Es un atributo de una parte de los datos que indica al ordenador (y/o al programador) algo sobre la clase de datos sobre los que se va a procesar.",
+            "Es una colección o conjunto de objetos que comparten características comunes entre si."
+        ],
+        "respuesta": "Es una colección o conjunto de objetos que comparten características comunes entre si."
+    },
+    {
+        "_id": 22,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un atributo en Programación?",
+        "Alternativas": [
+            "Son las cosas individuales que diferencian una clase de objetos de otros y determinan la apariencia, estado y otras cualidades de la clase.",
+            "Es un programa que transforma código fuente escrito en java a un código neutral a la plataforma conocido como java.",
+            "Es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java.",
+            "Es un atributo de una parte de los datos que indica al ordenador (y/o al programador) algo sobre la clase de datos sobre los que se va a procesar."
+        ],
+        "respuesta": "Son las cosas individuales que diferencian una clase de objetos de otros y determinan la apariencia, estado y otras cualidades de la clase."
+    },
+    {
+        "_id": 23,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es una Biblioteca de clases?",
+        "Alternativas": [
+            "Es un lenguaje de programación de bajo nivel para los computadores, microprocesadores, microcontroladores y otros circuitos integrados programables.",
+            "Es un programa que transforma código fuente escrito en java a un código neutral a la plataforma conocido como java.",
+            "Es un grupo de clases diseñada para su uso con otros programas.",
+            "Es módulo ordenado de elementos para la computadora que se encuentran interrelacionados y que interactúan entre sí, en apoyo al usuario."
+        ],
+        "respuesta": "Es un grupo de clases diseñada para su uso con otros programas."
+    },
+    {
+        "_id": 24,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un objeto en Programación orientado a objetos?",
+        "Alternativas": [
+            "Es un elemento independiente de un programa de computadora que representa a un grupo asociado de características y esta diseñado para tareas especificas.",
+            "Es un programa que transforma código fuente escrito en java a un código neutral a la plataforma conocido como java.",
+            "Es aquel elemento que tiene relación con el almacenamiento de la Información y sus usos; es más cercana a las Personas y Computadoras.",
+            "Es un atributo de una parte de los datos que indica al ordenador (y/o al programador) algo sobre la clase de datos sobre los que se va a procesar."
+        ],
+        "respuesta": "Es un elemento independiente de un programa de computadora que representa a un grupo asociado de características y esta diseñado para tareas especificas."
+    },
+    {
+        "_id": 25,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un Constructor en Java?",
+        "Alternativas": [
+            "Es un compilador estable y potente para la solución de problemas humanos y los entienda físicamente la PC.",
+            "Es un método especial de una clase que se llama automáticamente siempre que se declara un objeto de esa clase.",
+            "Es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java.",
+            "Es módulo ordenado de elementos para la computadora que se encuentran interrelacionados y que interactúan entre sí, en apoyo al usuario."
+        ],
+        "respuesta": "Es un método especial de una clase que se llama automáticamente siempre que se declara un objeto de esa clase."
+    },
+    {
+        "_id": 26,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es una variable local en Programación orientado a objetos?",
+        "Alternativas": [
+            "Estas se utilizan dentro de las funciones miembro o métodos.",
+            "Es un nombre que se asocia con una porción de la memoria del ordenador, en la que se guarda el valor asignado a dicha variable.",
+            "Es un grupo de sentencias que se comportan como una unidad.",
+            "Es una orden que se le da al programa para realizar una tarea específica."
+        ],
+        "respuesta": "Estas se utilizan dentro de las funciones miembro o métodos."
+    },
+    {
+        "_id": 27,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "Que es la Herencia en Programación orientado a objetos?",
+        "Alternativas": [
+            "Define los elementos de dicho lenguaje y cómo se combinan para formar un programa.",
+            "Es un nombre que identifica a una variable, a un método o función miembro, a una clase.",
+            "Son similares a las variables de instancia, con la excepción de que los valores que guardan son los mismos para todos los objetos de una clase.",
+            "Consiste en hacer uso de los atributos o métodos de una clase dentro de otra como si le perteneciera a este mismo."
+        ],
+        "respuesta": "Consiste en hacer uso de los atributos o métodos de una clase dentro de otra como si le perteneciera a este mismo."
+    },
+    {
+        "_id": 28,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un algoritmo?",
+        "Alternativas": [
+            "Es el seguimiento del DFD para la solucion a un problema.",
+            "Es una serie de pasos para dar solución a un problema.",
+            "Es el orden de los pasos para un sistema de informacion.",
+            "Es el estudio de las ordenes creadas por un programador."
+        ],
+        "respuesta": "Es una serie de pasos para dar solución a un problema."
+    },
+    {
+        "_id": 29,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un DFD (Diagrama de flujo de datos)?",
+        "Alternativas": [
+            "Es la Representación Simbólica de un Algoritmo.",
+            "Es una serie de pasos para dar solución a un problema.",
+            "Es el orden de los pasos para un sistema de informacion.",
+            "Es el estudio de las ordenes creadas por un programador."
+        ],
+        "respuesta": "Es la Representación Simbólica de un Algoritmo."
+    },
+    {
+        "_id": 30,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un pseudocódigo?",
+        "Alternativas": [
+            "Es una Serie de pasos para la solución a un problema.",
+            "Es un lenguaje artificial e informal útil para el desarrollo de algoritmos, no es un leng. de progr. verdadero, puede ser solo texto.",
+            "Es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java.",
+            "Es un Texto exclusivo en un lenguaje de programación y no es ejecutable."
+        ],
+        "respuesta": "Es un lenguaje artificial e informal útil para el desarrollo de algoritmos, no es un leng. de progr. verdadero, puede ser solo texto."
+    },
+    {
+        "_id": 31,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que es un código en programación?",
+        "Alternativas": [
+            "Es un compilador estable y potente para la solución de problemas humanos y los entienda físicamente la PC.",
+            "No es más que un conjunto de instrucciones que son redactadas por un usuario en un Sfw que tiene conocimientos del Lenguaje de Programación.",
+            "Es un lenguaje artificial e informal útil para el desarrollo de algoritmos.",
+            "Es un método o procedimiento definido para resolver un problema."
+        ],
+        "respuesta": "No es más que un conjunto de instrucciones que son redactadas por un usuario en un Sfw que tiene conocimientos del Lenguaje de Programación."
+    },
+    {
+        "_id": 32,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "Verdadero y Falso",
+        "dificultad": "easy",
+        "pregunta": "El entorno IDE NetBeans trabaja por Archivos independientes.",
+        "Alternativas": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta": "Falso"
+    },
+    {
+        "_id": 33,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "Para que una programa en NetBeans funcione comprende por lo menos 4 cosas, cuales son:",
+        "Alternativas": [
+            "Nombre del proyecto, Clases, Objetos, Codigo.",
+            "Nombre del Paquete, Atributos, Pseudocodigo.",
+            "Compilación, Ejecucion, Creacion del archivo .Jar y Guardar el proyecto.",
+            "JDK, IDE, Clases y Objetos"
+        ],
+        "respuesta": "Nombre del proyecto, Clases, Objetos, Codigo."
+    },
+    {
+        "_id": 34,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "Permite crear un archivo “.jar” en NetBeans",
+        "Alternativas": [
+            "Shift +F11",
+            "Shift +F6",
+            "Shift +F12",
+            "Shift +F9"
+        ],
+        "respuesta": "Shift +F11"
+    },
+    {
+        "_id": 35,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿Que significa JDK?",
+        "Alternativas": [
+            "Java Development Kit.",
+            "Java Distance kilobye.",
+            "Distrit Java Kit.",
+            "Kilobyte Java Development."
+        ],
+        "respuesta": "Java Development Kit."
+    },
+    {
+        "_id": 36,
+        "categoria": "Science:Computers",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "easy",
+        "pregunta": "¿A que se le llama entorno de desarrollo IDE?",
+        "Alternativas": [
+            "Es un programa informático compuesto por un conjunto de herramientas de programación.",
+            "Es un programa que transforma código fuente escrito en java a un código neutral a la plataforma conocido como java.",
+            "Es un Programa que define un medio de comunicación compartido por un grupo de personas y la PC (por ejemplo: inglés o francés).",
+            "Es un lenguaje o Sfw diseñado para describir un conjunto de acciones consecutivas que un equipo debe ejecutar."
+        ],
+        "respuesta": "Es un programa informático compuesto por un conjunto de herramientas de programación."
+    }
+]

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include partials/header %>
+    <title>New Json</title>
+</head>
+<body>
+
+    <% include partials/navigation %>
+
+    <div class="container p-4">
+        <form method="POST" action="/new-entry" class="card card-body">
+            <div class="form-group">
+                <label for="title">Categoria</label>
+                <input type="text" class="form-control" name="categoria" id="categoria" placeholder="Categoria" autofocus required>
+            </div>
+            <div class="form-group">
+                <label for="title">Tipo de Pregunta</label>
+                <input type="text" class="form-control" name="tipo_Pregunta" id="tipo_Pregunta" placeholder="Tipo de Pregunta" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Dificultad</label>
+                <input type="text" class="form-control" name="dificultad" id="dificultad" placeholder="Dificultad" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Pregunta</label>
+                <textarea name="pregunta" id="pregunta" rows="2" class="form-control" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="title">Alternativa</label>
+                <input type="text" class="form-control" name="a" id="a" placeholder="Alternativas" required>
+                <input type="text" class="form-control" name="b" id="b" placeholder="Alternativas" required>
+                <input type="text" class="form-control" name="c" id="c" placeholder="Alternativas" required>
+                <input type="text" class="form-control" name="d" id="d" placeholder="Alternativas" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Respuesta</label>
+                <input type="text" class="form-control" name="respuesta" id="respuesta" placeholder="Respuesta" required>
+            </div>
+            <input type="submit" value="Save Json" class="btn btn-primary">
+        </form>
+    </div>
+</body>
+</html>
