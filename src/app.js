@@ -4,7 +4,7 @@ const path = require('path');
 const morgan = require('morgan');
 
 // Settings
-app.set('port', 5000);
+app.set('port', process.env.PORT || 3000);
 app.set('json spaces', 2);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
