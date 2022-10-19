@@ -26,16 +26,24 @@ router.post('/new-entry', (req, res) =>{
         res.status(400).send('Entries must have a title and description');
         return;
     }
+
+    var a3; var b3; var c3; var d3;
+
+    if(a2 === "True"){a3 = Boolean(true);}else{a3 = Boolean(false)}
+    if(b2 === "True"){b3 = Boolean(true);}else{b3 = Boolean(false)}
+    if(c2 === "True"){c3 = Boolean(true);}else{c3 = Boolean(false)}
+    if(d2 === "True"){d3 = Boolean(true);}else{d3 = Boolean(false)}
+
     let newBook = {
         categoria,
         tipo_Pregunta,
         dificultad,
         titulo,
         opciones:[
-            {a, a2},
-            {b, b2},
-            {c, c2},
-            {d, d2}
+            {textoRespuesta: a, isCorrect: a3},
+            {textoRespuesta: b, isCorrect: b3},
+            {textoRespuesta: c, isCorrect: c3},
+            {textoRespuesta: d, isCorrect: d3}
         ]
     };
     books.push(newBook);
