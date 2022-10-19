@@ -2,12 +2,14 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const morgan = require('morgan');
+const cors = require('cors');
 
 // Settings
 app.set('port', process.env.PORT || 4000);
 app.set('json spaces', 2);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.use(cors('http://localhost:3000/'));
 
 // Middlewares
 app.use(morgan('dev'));

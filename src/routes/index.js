@@ -43,14 +43,14 @@ router.post('/new-entry', (req, res) =>{
     const json_books = JSON.stringify(books);
     fs.writeFileSync('src/alternativas.json', json_books, 'utf-8');
 
-    res.redirect('/');
+    res.redirect('http://localhost:3000/');
 });
 
-router.get('/delete/:_id', (req,res) =>{
+/*router.get('/delete/:_id', (req,res) =>{
     books = books.filter(book => book._id != req.params._id);
     const json_books = JSON.stringify(books);
     fs.writeFileSync('src/alternativas.json', json_books, 'utf-8');
     res.redirect('/');
-})
+})*/
 
 module.exports = router;

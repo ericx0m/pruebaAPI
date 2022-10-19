@@ -24,19 +24,38 @@
             </div>
             <div class="form-group">
                 <label for="title">Pregunta</label>
-                <textarea name="pregunta" id="pregunta" rows="2" class="form-control" required></textarea>
+                <textarea name="titulo" id="titulo" rows="2" class="form-control" required></textarea>
             </div>
             <div class="form-group">
                 <label for="title">Alternativa</label>
-                <input type="text" class="form-control" name="a" id="a" placeholder="Alternativas" required>
-                <input type="text" class="form-control" name="b" id="b" placeholder="Alternativas" required>
-                <input type="text" class="form-control" name="c" id="c" placeholder="Alternativas" required>
-                <input type="text" class="form-control" name="d" id="d" placeholder="Alternativas" required>
+                <input type="text" class="form-control" name="a" id="a" placeholder="Alternativa A" required>
+                <input type="text" class="form-control" name="b" id="b" placeholder="Alternativa B" required>
+                <input type="text" class="form-control" name="c" id="c" placeholder="Alternativa C" required>
+                <input type="text" class="form-control" name="d" id="d" placeholder="Alternativa D" required>
             </div>
-            <div class="form-group">
-                <label for="title">Respuesta</label>
-                <input type="text" class="form-control" name="respuesta" id="respuesta" placeholder="Respuesta" required>
+            <div class="form-group"> 
+                A:
+                <select name="a2" id="a2">
+                    <option value="false">False</option>
+                    <option value="true">True</option>
+                </select>
+                B:
+                <select name="b2" id="b2">
+                    <option value="false">False</option>
+                    <option value="true">True</option>
+                </select>
+                C:
+                <select name="c2" id="c2">
+                    <option value="false">False</option>
+                    <option value="true">True</option>
+                </select>
+                D:
+                <select name="d2" id="d2">
+                    <option value="false">False</option>
+                    <option value="true">True</option>
+                </select>
             </div>
+
             <input type="submit" value="Save Json" class="btn btn-primary">
         </form>
     </div>
