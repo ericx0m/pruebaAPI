@@ -1,5 +1,6 @@
 [
     {
+        "_id":0,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -24,6 +25,7 @@
         ]
     },
     {
+        "_id":1,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -48,6 +50,7 @@
         ]
     },
     {
+        "_id":2,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -72,6 +75,7 @@
         ]
     },
     {
+        "_id":3,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -96,6 +100,7 @@
         ]
     },
     {
+        "_id":4,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -120,6 +125,7 @@
         ]
     },
     {
+        "_id":5,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -144,6 +150,7 @@
         ]
     },
     {
+        "_id":6,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -168,6 +175,7 @@
         ]
     },
     {
+        "_id":7,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "Verdadero y Falso",
         "dificultad": "easy",
@@ -184,6 +192,7 @@
         ]
     },
     {
+        "_id":8,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -208,6 +217,7 @@
         ]
     },
     {
+        "_id":9,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -232,6 +242,7 @@
         ]
     },
     {
+        "_id":10,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -256,6 +267,7 @@
         ]
     },
     {
+        "_id":11,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -280,6 +292,7 @@
         ]
     },
     {
+        "_id":12,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -304,6 +317,7 @@
         ]
     },
     {
+        "_id":13,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -328,6 +342,7 @@
         ]
     },
     {
+        "_id":14,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -352,6 +367,7 @@
         ]
     },
     {
+        "_id":15,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -376,6 +392,7 @@
         ]
     },
     {
+        "_id":16,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -400,6 +417,7 @@
         ]
     },
     {
+        "_id":17,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -424,6 +442,7 @@
         ]
     },
     {
+        "_id":18,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -448,6 +467,7 @@
         ]
     },
     {
+        "_id":19,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -472,6 +492,7 @@
         ]
     },
     {
+        "_id":20,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -496,6 +517,7 @@
         ]
     },
     {
+        "_id":21,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -520,6 +542,7 @@
         ]
     },
     {
+        "_id":22,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -544,6 +567,7 @@
         ]
     },
     {
+        "_id":23,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -568,6 +592,7 @@
         ]
     },
     {
+        "_id":24,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -592,6 +617,7 @@
         ]
     },
     {
+        "_id":25,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -616,6 +642,7 @@
         ]
     },
     {
+        "_id":26,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -640,6 +667,7 @@
         ]
     },
     {
+        "_id":27,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -664,6 +692,7 @@
         ]
     },
     {
+        "_id":28,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -688,6 +717,7 @@
         ]
     },
     {
+        "_id":29,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -712,6 +742,7 @@
         ]
     },
     {
+        "_id":30,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -736,6 +767,7 @@
         ]
     },
     {
+        "_id":31,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "Verdadero y Falso",
         "dificultad": "easy",
@@ -752,6 +784,7 @@
         ]
     },
     {
+        "_id":32,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -776,6 +809,7 @@
         ]
     },
     {
+        "_id":33,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -800,6 +834,7 @@
         ]
     },
     {
+        "_id":34,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -824,6 +859,7 @@
         ]
     },
     {
+        "_id":35,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -848,6 +884,7 @@
         ]
     },
     {
+        "_id":36,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",

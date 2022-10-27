@@ -26,6 +26,7 @@ router.post('/new-entry', (req, res) =>{
         res.status(400).send('Entries must have a title and description');
         return;
     }
+    const _id = preguntas.length + 1;
 
     var a3; var b3; var c3; var d3;
 
@@ -35,6 +36,7 @@ router.post('/new-entry', (req, res) =>{
     if(d2 === "True"){d3 = Boolean(true);}else{d3 = Boolean(false)}
 
     let newBook = {
+        _id,
         categoria,
         tipo_Pregunta,
         dificultad,

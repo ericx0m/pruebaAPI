@@ -1,17 +1,25 @@
-const { Router } = require('express');
+const { Router, application } = require('express');
 const router = Router();
 const _ = require('underscore');
+const express = require('express');
+const app = express();
 
+app.use(express.json());
 const preguntas = require('../alternativas.json');
 
 router.get('/',(req,res) => {
     res.json(preguntas);
 });
 
-/*//agregar datos
+router.get('/:id',(req,res) => {
+    const {id} = req.params;
+    res.json(preguntas[id]);
+})
+
+//agregar datos
 router.post('/', (req, res) =>{
-    const { categoria, tipo_Pregunta, dificultad, pregunta, respuesta } = req.body;
-    if(categoria && tipo_Pregunta && dificultad && pregunta && respuesta){
+    const { categoria, tipo_Pregunta, dificultad, titulo, opciones} = req.body;
+    if(categoria && tipo_Pregunta && dificultad && titulo && opciones){
         const _id = preguntas.length + 1;
         const newPre = {_id ,...req.body};
         preguntas.push(newPre);
@@ -24,15 +32,15 @@ router.post('/', (req, res) =>{
 //Actualizar datos
 router.put('/:id', (req, res) => {
     const {id} = req.params;
-    const { categoria, tipo_Pregunta, dificultad, pregunta, respuesta } = req.body;
-    if(categoria && tipo_Pregunta && dificultad && pregunta && respuesta){
+    const { categoria, tipo_Pregunta, dificultad, titulo, opciones} = req.body;
+    if(categoria && tipo_Pregunta && dificultad && titulo && opciones){
         _.each(preguntas, (preg, i) =>{
             if(preg._id == id){
                 preg.categoria = categoria;
                 preg.tipo_Pregunta = tipo_Pregunta;
                 preg.dificultad = dificultad;
-                preg.pregunta = pregunta;
-                preg.respuesta = respuesta
+                preg.titulo = titulo;
+                preg.opciones = opciones
             }
         });
         res.json(preguntas);
@@ -51,6 +59,6 @@ router.delete('/:id', (req,res) => {
         }
     });
     res.send(preguntas);
-});*/
+});
 
 module.exports = router;

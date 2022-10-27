@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    @apply rounded-full;
+}
+.btnter{
+  @apply rounded-full btn-primary btn-sm;
+  background-color: rgba(34, 49, 101, 1);
+}
+
+.app {
+  @apply flex justify-evenly p-5;
+  background-color: rgba(37, 45, 74, 1);
+  max-width: 650px;
+  min-width: 450px;
+  min-height: 200px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btnquiz{
+  @apply hover:bg-blue-700 focus:outline-none border-solid border-4 cursor-pointer flex items-center justify-start text-base p-1 text-white w-full mr-1;
+  background-color: rgba(37, 45, 74, 1);
+  border-radius: 15px;
+  border-color: rgba(35, 70, 104, 1);
+}
+.btnquiz[disabled] {
+  @apply cursor-not-allowed text-white;
+  background-color: rgba(34, 49, 101, 1);
+}
+.tiempo-restante {
+  @apply text-sm mb-5;
+  color: rgba(252, 191, 61, 1);
+}
+.correct{
+  @apply hover:bg-green-700;
+  background-color: rgba(47, 146, 47, 1);
+}
+.incorrect{
+  @apply hover:bg-red-600;
+  background-color: rgba(255, 51, 51, 1);
+}
+.player_container {
+  @apply bg-black border-solid border flex flex-col items-center justify-between p-4 w-1/2;
+  border-color: rgba(141, 141, 141, 1);
+  border-radius: 10px;
+  color: rgba(218, 218, 218, 1);
+}
+.seek_bar {
+  @apply h-full w-0;
+  background-color: rgba(24, 128, 3, 1);
+  border-radius: 30px;
+}
+.navigation_wrapper {
+  @apply cursor-pointer h-1 min-w-full;
+  background-color: rgba(119, 119, 119, 0.781);
+  border-radius: 30px;
+}

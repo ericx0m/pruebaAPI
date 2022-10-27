@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <% include partials/header %>
-    <title>New Json</title>
+        <title>New Json</title>
 </head>
-<body>
+
+<body class="h-screen bg-gradient-to-b from-gray-900 to-gray-900">
 
     <% include partials/navigation %>
+        <center>
+            <div class="w-full max-w-xs">
+                <form method="POST" action="/new-entry" class="bg-gray-600 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    <div class="md:flex md:items-center mb-6">
+                        <label for="title" class="block uppercase tracking-wide text-white text-xs font-bold mb-2">Categoria</label>
+                        <input type="text" class="form-control" name="categoria" id="categoria" placeholder="Categoria"
+                            autofocus required>
+                    </div>
+                    <div class="form-group">
+                        <label for="title" class="block uppercase tracking-wide text-white text-xs font-bold mb-2">Tipo de Pregunta</label>
+                        <input type="text" class="form-control" name="tipo_Pregunta" id="tipo_Pregunta"
+                            placeholder="Tipo de Pregunta" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="title" class="block uppercase tracking-wide text-white text-xs font-bold mb-2">Dificultad</label>
+                        <input type="text" class="form-control" name="dificultad" id="dificultad"
+                            placeholder="Dificultad" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="title" class="block uppercase tracking-wide text-white text-xs font-bold mb-2">Pregunta</label>
+                        <textarea name="titulo" id="titulo" rows="2" class="form-control" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Alternativa</label>
+                        <input type="text" class="form-control" name="a" id="a" placeholder="Alternativa A" required>
+                        <input type="text" class="form-control" name="b" id="b" placeholder="Alternativa B" required>
+                        <input type="text" class="form-control" name="c" id="c" placeholder="Alternativa C" required>
+                        <input type="text" class="form-control" name="d" id="d" placeholder="Alternativa D" required>
+                    </div>
+                    <div class="form-group">
+                        A:
+                        <select name="a2" id="a2">
+                            <option>False</option>
+                            <option>True</option>
+                        </select>
+                        B:
+                        <select name="b2" id="b2">
+                            <option>False</option>
+                            <option>True</option>
+                        </select>
+                        C:
+                        <select name="c2" id="c2">
+                            <option>False</option>
+                            <option>True</option>
+                        </select>
+                        D:
+                        <select name="d2" id="d2">
+                            <option>False</option>
+                            <option>True</option>
+                        </select>
+                    </div>
 
-    <div class="container p-4">
-        <form method="POST" action="/new-entry" class="card card-body">
-            <div class="form-group">
-                <label for="title">Categoria</label>
-                <input type="text" class="form-control" name="categoria" id="categoria" placeholder="Categoria" autofocus required>
+                    <input type="submit" value="Save Json" class="btn btn-primary">
+                </form>
             </div>
-            <div class="form-group">
-                <label for="title">Tipo de Pregunta</label>
-                <input type="text" class="form-control" name="tipo_Pregunta" id="tipo_Pregunta" placeholder="Tipo de Pregunta" required>
-            </div>
-            <div class="form-group">
-                <label for="title">Dificultad</label>
-                <input type="text" class="form-control" name="dificultad" id="dificultad" placeholder="Dificultad" required>
-            </div>
-            <div class="form-group">
-                <label for="title">Pregunta</label>
-                <textarea name="titulo" id="titulo" rows="2" class="form-control" required></textarea>
-            </div>
-            <div class="form-group">
-                <label for="title">Alternativa</label>
-                <input type="text" class="form-control" name="a" id="a" placeholder="Alternativa A" required>
-                <input type="text" class="form-control" name="b" id="b" placeholder="Alternativa B" required>
-                <input type="text" class="form-control" name="c" id="c" placeholder="Alternativa C" required>
-                <input type="text" class="form-control" name="d" id="d" placeholder="Alternativa D" required>
-            </div>
-            <div class="form-group"> 
-                A:
-                <select name="a2" id="a2">
-                    <option >False</option>
-                    <option >True</option>
-                </select>
-                B:
-                <select name="b2" id="b2">
-                    <option>False</option>
-                    <option>True</option>
-                </select>
-                C:
-                <select name="c2" id="c2">
-                    <option>False</option>
-                    <option>True</option>
-                </select>
-                D:
-                <select name="d2" id="d2">
-                    <option>False</option>
-                    <option>True</option>
-                </select>
-            </div>
+        </center>
 
-            <input type="submit" value="Save Json" class="btn btn-primary">
-        </form>
-    </div>
 </body>
+
 </html>
