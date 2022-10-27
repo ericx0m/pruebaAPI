@@ -26,7 +26,7 @@ router.post('/new-entry', (req, res) =>{
         res.status(400).send('Entries must have a title and description');
         return;
     }
-    const _id = preguntas.length + 1;
+    const _id = preguntas.length;
 
     var a3; var b3; var c3; var d3;
 

@@ -20,7 +20,7 @@ router.get('/:id',(req,res) => {
 router.post('/', (req, res) =>{
     const { categoria, tipo_Pregunta, dificultad, titulo, opciones} = req.body;
     if(categoria && tipo_Pregunta && dificultad && titulo && opciones){
-        const _id = preguntas.length + 1;
+        const _id = preguntas.length;
         const newPre = {_id ,...req.body};
         preguntas.push(newPre);
         res.json(preguntas);
