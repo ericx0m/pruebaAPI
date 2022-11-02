@@ -3,6 +3,7 @@ const router = Router();
 const _ = require('underscore');
 const express = require('express');
 const app = express();
+const fs = require('fs');
 
 app.use(express.json());
 const preguntas = require('../alternativas.json');
@@ -23,7 +24,9 @@ router.post('/', (req, res) =>{
         const _id = preguntas.length;
         const newPre = {_id ,...req.body};
         preguntas.push(newPre);
-        res.json(preguntas);
+        const json_books = JSON.stringify(preguntas);
+        fs.writeFileSync('src/alternativas.json', json_books, 'utf-8');
+        res.status(200).redirect('/api/preguntas');
     }else{
         res.status(500).json({error: 'Hubo un error.'});
     }
@@ -44,6 +47,9 @@ router.put('/:id', (req, res) => {
             }
         });
         res.json(preguntas);
+        const json_books = JSON.stringify(preguntas);
+        fs.writeFileSync('src/alternativas.json', json_books, 'utf-8');
+        res.status(200).redirect('/api/preguntas');
     }else{
         res.status(500).json({error: 'hubo un error.'})
     }
@@ -59,6 +65,9 @@ router.delete('/:id', (req,res) => {
         }
     });
     res.send(preguntas);
+    const json_books = JSON.stringify(preguntas);
+    fs.writeFileSync('src/alternativas.json', json_books, 'utf-8');
+    res.status(200).redirect('/api/preguntas');
 });
 
 module.exports = router;

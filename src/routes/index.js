@@ -6,11 +6,11 @@ const fs = require('fs');
 const json_books = fs.readFileSync('src/alternativas.json', 'utf-8');
 let books = JSON.parse(json_books);
 
-/*router.get('/', (req, res) => {
+router.get('/', (req, res) => {
     res.render('index.ejs', {
         books
     });
-});*/
+});
 
 router.get('/404-ERROR', (req, res) => {
     res.render('404.ejs');
