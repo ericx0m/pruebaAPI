@@ -907,5 +907,30 @@
                 "isCorrect": false
             }
         ]
-    }
+    },
+    {
+        "_id": 37,
+        "categoria": "Logica de programacion ",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "normal",
+        "titulo": "Un compilador es:",
+        "opciones": [
+          {
+            "textoRespuesta": "El que permite traducir un programa escrito en un lenguaje de programación a lenguaje máquina.",
+            "isCorrect": true
+          },
+          {
+            "textoRespuesta": "Un lenguaje de alto nivel",
+            "isCorrect": false
+          },
+          {
+            "textoRespuesta": "Una instrucción",
+            "isCorrect": false
+          },
+          {
+            "textoRespuesta": "Una directiva de pre procesamiento",
+            "isCorrect": false
+          }
+        ]
+      }
 ]
