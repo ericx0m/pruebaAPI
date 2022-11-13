@@ -1,6 +1,6 @@
 [
     {
-        "_id":0,
+        "_id": 0,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -25,7 +25,7 @@
         ]
     },
     {
-        "_id":1,
+        "_id": 1,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -50,7 +50,7 @@
         ]
     },
     {
-        "_id":2,
+        "_id": 2,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "_id":3,
+        "_id": 3,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -100,7 +100,7 @@
         ]
     },
     {
-        "_id":4,
+        "_id": 4,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -125,7 +125,7 @@
         ]
     },
     {
-        "_id":5,
+        "_id": 5,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -150,7 +150,7 @@
         ]
     },
     {
-        "_id":6,
+        "_id": 6,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -175,7 +175,7 @@
         ]
     },
     {
-        "_id":7,
+        "_id": 7,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "Verdadero y Falso",
         "dificultad": "easy",
@@ -192,7 +192,7 @@
         ]
     },
     {
-        "_id":8,
+        "_id": 8,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -217,7 +217,7 @@
         ]
     },
     {
-        "_id":9,
+        "_id": 9,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -242,7 +242,7 @@
         ]
     },
     {
-        "_id":10,
+        "_id": 10,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -267,7 +267,7 @@
         ]
     },
     {
-        "_id":11,
+        "_id": 11,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -292,7 +292,7 @@
         ]
     },
     {
-        "_id":12,
+        "_id": 12,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -317,7 +317,7 @@
         ]
     },
     {
-        "_id":13,
+        "_id": 13,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "_id":14,
+        "_id": 14,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -367,7 +367,7 @@
         ]
     },
     {
-        "_id":15,
+        "_id": 15,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -392,7 +392,7 @@
         ]
     },
     {
-        "_id":16,
+        "_id": 16,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -417,7 +417,7 @@
         ]
     },
     {
-        "_id":17,
+        "_id": 17,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -442,7 +442,7 @@
         ]
     },
     {
-        "_id":18,
+        "_id": 18,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -467,7 +467,7 @@
         ]
     },
     {
-        "_id":19,
+        "_id": 19,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -492,7 +492,7 @@
         ]
     },
     {
-        "_id":20,
+        "_id": 20,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -517,7 +517,7 @@
         ]
     },
     {
-        "_id":21,
+        "_id": 21,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -542,7 +542,7 @@
         ]
     },
     {
-        "_id":22,
+        "_id": 22,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -567,7 +567,7 @@
         ]
     },
     {
-        "_id":23,
+        "_id": 23,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -592,7 +592,7 @@
         ]
     },
     {
-        "_id":24,
+        "_id": 24,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -617,7 +617,7 @@
         ]
     },
     {
-        "_id":25,
+        "_id": 25,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -642,7 +642,7 @@
         ]
     },
     {
-        "_id":26,
+        "_id": 26,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -667,7 +667,7 @@
         ]
     },
     {
-        "_id":27,
+        "_id": 27,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -692,7 +692,7 @@
         ]
     },
     {
-        "_id":28,
+        "_id": 28,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -717,7 +717,7 @@
         ]
     },
     {
-        "_id":29,
+        "_id": 29,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -742,7 +742,7 @@
         ]
     },
     {
-        "_id":30,
+        "_id": 30,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -767,7 +767,7 @@
         ]
     },
     {
-        "_id":31,
+        "_id": 31,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "Verdadero y Falso",
         "dificultad": "easy",
@@ -784,7 +784,7 @@
         ]
     },
     {
-        "_id":32,
+        "_id": 32,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -809,7 +809,7 @@
         ]
     },
     {
-        "_id":33,
+        "_id": 33,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -834,7 +834,7 @@
         ]
     },
     {
-        "_id":34,
+        "_id": 34,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -859,7 +859,7 @@
         ]
     },
     {
-        "_id":35,
+        "_id": 35,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -884,7 +884,7 @@
         ]
     },
     {
-        "_id":36,
+        "_id": 36,
         "categoria": "Science:Computers",
         "tipo_Pregunta": "multiple",
         "dificultad": "easy",
@@ -910,27 +910,52 @@
     },
     {
         "_id": 37,
-        "categoria": "Logica de programacion ",
+        "categoria": "Logica de programación",
         "tipo_Pregunta": "multiple",
         "dificultad": "normal",
         "titulo": "Un compilador es:",
         "opciones": [
-          {
-            "textoRespuesta": "El que permite traducir un programa escrito en un lenguaje de programación a lenguaje máquina.",
-            "isCorrect": true
-          },
-          {
-            "textoRespuesta": "Un lenguaje de alto nivel",
-            "isCorrect": false
-          },
-          {
-            "textoRespuesta": "Una instrucción",
-            "isCorrect": false
-          },
-          {
-            "textoRespuesta": "Una directiva de pre procesamiento",
-            "isCorrect": false
-          }
+            {
+                "textoRespuesta": "El que permite traducir un programa escrito en un lenguaje de programación a lenguaje máquina.",
+                "isCorrect": true
+            },
+            {
+                "textoRespuesta": "Un lenguaje de alto nivel",
+                "isCorrect": false
+            },
+            {
+                "textoRespuesta": "Una instrucción",
+                "isCorrect": false
+            },
+            {
+                "textoRespuesta": "Una directiva de pre procesamiento",
+                "isCorrect": false
+            }
         ]
-      }
+    },
+    {
+        "_id": 38,
+        "categoria": "Logica de Programación",
+        "tipo_Pregunta": "multiple",
+        "dificultad": "normal",
+        "titulo": "Las etapas que deben seguirse en la construcción de un programa son",
+        "opciones": [
+            {
+                "textoRespuesta": "Análisis, algoritmo, diagrama de flujo, seudocódigo",
+                "isCorrect": false
+            },
+            {
+                "textoRespuesta": "Análisis, seudocódigo, prueba de escritorio, implementación (codificar en un lenguaje de programación).",
+                "isCorrect": false
+            },
+            {
+                "textoRespuesta": "Análisis, algoritmo, prueba de escritorio, implementación (codificar en un lenguaje de programación), prueba, instalación y uso del aplicativo.",
+                "isCorrect": false
+            },
+            {
+                "textoRespuesta": "Análisis, algoritmo, diagrama de flujo, seudocódigo, prueba de escritorio, implementación (codificar en un lenguaje de programación), prueba, instalación y uso del aplicativo.",
+                "isCorrect": true
+            }
+        ]
+    }
 ]
