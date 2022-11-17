@@ -957,5 +957,80 @@
                 "isCorrect": true
             }
         ]
+    },
+    {
+        "_id": 39,
+        "categoria":"Logica de Programación",
+        "tipo_Pregunta": "multiple",
+        "dificultad":"normal",
+        "titulo": "En caso de presentarse una falla de sintaxis, en el proceso de programación, se procede a:",
+        "opciones":[
+            {
+                "textoRespuesta":"Ignorar los errores y ejecutar el programa.", 
+                "isCorrect":false
+            },
+            {
+                "textoRespuesta":"Comprender el mensaje de error que reporta el ambiente de programación, examinar el código del programa para identificar en cuál instrucción se encuentra la falla, para corregir la y probar el programa de nuevo.",
+                "isCorrect":true
+            },
+            {
+                "textoRespuesta":"Examinar el código del programa para identificar en cuál instrucción se encuentra la falla, Comprender el mensaje de error que reporta el ambiente de programación.",
+                "isCorrect":false
+            },
+            {
+                "textoRespuesta":"Examinar el código del programa para identificar en cuál instrucción se encuentra la falla, corregir la falla.",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "_id":40,
+        "categoria":"Logica de Programación",
+        "tipo_Pregunta":"multiple",
+        "dificultad":"normal",
+        "titulo":"Instrucción que permite almacenar un valor en una variable.Instrucción que permite almacenar un valor en una variable.",
+        "opciones":[
+            {
+                "textoRespuesta":"Leer",
+                "isCorrect":false
+            },
+            {
+                "textoRespuesta":"Asignar",
+                "isCorrect":true
+            },
+            {
+                "textoRespuesta":"Escribir",
+                "isCorrect":false
+            },
+            {
+                "textoRespuesta":"Si / entonces",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "_id":41,
+        "categoria":"Logica de Programación",
+        "tipo_Pregunta":"multiple",
+        "dificultad":"normal",
+        "titulo":"El diagrama de flujo es la representación grafica de un algoritmo, donde se visualiza el flujo de los datos y las operaciones (procesos) de un programa. Se caracteriza por:",
+        "opciones":[
+            {
+                "textoRespuesta":"Que debe ser construido por herramientas muy técnicas",
+                "isCorrect":false
+            },
+            {
+                "textoRespuesta":"Utilizar formas geométricas elementales",
+                "isCorrect":false
+            },
+            {
+                "textoRespuesta":"Su sencillez, claridad, uso de normas y símbolos, flexibilidad.",
+                "isCorrect":true
+            },
+            {
+                "textoRespuesta":"Requerir un buen análisis del problema",
+                "isCorrect":false
+            }
+        ]
     }
 ]
